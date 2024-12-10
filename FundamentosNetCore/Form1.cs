@@ -15,7 +15,6 @@ namespace FundamentosNetCore
             this.lblTexto.Text = "Su nombre es: " + nombre;
             this.lblTexto.Location = new Point(20, 10);
             this.lblTexto.Width = 130;
-            this.lblTexto.TextAlign = HorizontalAlignment.Right;
         }
     }
 }
