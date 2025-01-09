@@ -10,11 +10,14 @@ namespace ProyectoClases.Models
     {
         public string nombre { get; set; }
         public string raza { get; set; }
+        public int Years {  get; set; }
 
         public Mascota(string nombre, string raza) {
             this.nombre = nombre;
             this.raza = raza;
         }
+
+        public Mascota() { }
 
 
         public override string ToString()
